@@ -108,14 +108,15 @@ export default StyleSheet.create({
         "background": "transparent",
         "transition": "all 0s ease"
     },
-    "carousel": {
+    "carousel-conatiner": {
         "marginTop": 20,
         "marginRight": "auto",
         "marginBottom": 20,
         "marginLeft": "auto"
     },
-    "carousel>img": {
-        "width": "70%"
+    "carousel-conatiner>img": {
+        "width": "60%",
+        "height": "20%"
     },
     "form": {
         "width": "100%"

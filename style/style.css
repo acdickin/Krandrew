@@ -149,12 +149,13 @@ h1,h2,h3,h4{
 
 
 /*Carousel Componet*/
-.carousel{
+.carousel-conatiner{
 
   margin:20px auto;
 }
-.carousel>img{
-  width:70%;
+.carousel-conatiner>img{
+  width:60%;
+  height:20%;
 }
 
 /*getInTouch Form*/

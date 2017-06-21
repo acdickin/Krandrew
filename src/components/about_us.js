@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from './carousel';
+import IMGS from '../../public/api/imageList';
 
 export default class AboutUs extends Component {
   render() {
@@ -7,7 +8,7 @@ export default class AboutUs extends Component {
       <div className="flex-container">
       	<div className="title-blk blk">
           <h2 className="title" > About Us</h2>
-      		<Carousel/>
+      		<Carousel images={IMGS.about}/>
       	</div>
       </div>
     );
