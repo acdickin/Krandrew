@@ -4,7 +4,6 @@
   display: -webkit-flex;
   display: flex;
   margin:0 auto;
-  background:#220A37;
   color:#F6F6F6;
 
 }
@@ -24,9 +23,9 @@ a{
 
 }
 .blk{
-  background:#220A37;
+  background: rgba(34, 10, 55, 0.6);
   color:#F6F6F6;
-  filter:alpha(opacity=60);
+
 }
 h1,h2,h3,h4{
   margin:0 !important;
@@ -44,10 +43,6 @@ h1,h2,h3,h4{
     padding: 0;
     margin: 0;
     list-style: none;
-  }
-  .header-mobile{
-    background:#220A37;
-    display:none;
   }
   .nav-bar{
     width:100%;

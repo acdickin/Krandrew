@@ -7,7 +7,6 @@ export default class Header extends Component{
 		return(
 
 			<nav className="nav-bar">
-			<h1  className="header-mobile blk">Krandrew Wedding</h1>
 				<div className="nav-items blk">
 					<h1 className="header-desktop"> Andrew and Krystaal's Wedding Website</h1>
 					<li className="nav-item">
