@@ -27,6 +27,7 @@ export default StyleSheet.create({
     },
     "title": {},
     "blk": {
+        "width": "100%",
         "background": "rgba(34, 10, 55, 0.6)",
         "color": "#F6F6F6"
     },
@@ -114,9 +115,9 @@ export default StyleSheet.create({
         "marginBottom": 20,
         "marginLeft": "auto"
     },
-    "carousel-conatiner>img": {
-        "width": "60%",
-        "height": "20%"
+    "carousel-img": {
+        "height": "20%",
+        "maxHeight": 512
     },
     "form": {
         "width": "100%"

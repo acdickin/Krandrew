@@ -4,9 +4,9 @@ class Carousel extends Component{
 	renderImages(){
 		 return this.props.images.map((img)=>{
 			 return(
-				 <div key={img.id}>
-					 <h2>{img.src}</h2>
+				 <div  key={img.id}>
 					 <h2>{img.comment}</h2>
+					 <img className="carousel-img" src={'../../public/img/'+img.src}/>
 				 </div>
 			 )
 	  })
