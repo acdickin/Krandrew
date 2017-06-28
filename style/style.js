@@ -121,5 +121,8 @@ export default StyleSheet.create({
     },
     "form": {
         "width": "100%"
+    },
+    "link": {
+        "color": "rgba(34, 10, 55, 1)"
     }
 });

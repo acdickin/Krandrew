@@ -36,7 +36,7 @@ h1,h2,h3,h4{
 /*Header Component*/
 @media only screen and (min-width: 750px) {
   body{
-  	background-image:url("../public/img/constgray.jpg");
+  	background-image:url("../../public/img/constgray.jpg");
    	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -74,13 +74,11 @@ h1,h2,h3,h4{
 
 @media only screen and (max-width: 749px) {
   body {
-    /*background-image: url("../public/img/const1.jpg");
+    background-image: url("../../public/img/constc.jpg");
 		background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover
-*/
-    padding: 0;
+    background-size: cover;
     margin: 0;
     list-style: none;
   }
@@ -162,4 +160,9 @@ h1,h2,h3,h4{
 /*getInTouch Form*/
 .form{
   width:100%;
+}
+
+/*Info*/
+.link{
+  color:rgba(34, 10, 55, 1);
 }

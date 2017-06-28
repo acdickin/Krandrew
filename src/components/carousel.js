@@ -1,24 +1,24 @@
 import React ,{Component} from 'react'
+var Carousel = require('react-responsive-carousel').Carousel;
 
-class Carousel extends Component{
+class thisCarousel extends Component{
 	renderImages(){
 		 return this.props.images.map((img)=>{
 			 return(
 				 <div  key={img.id}>
-					 <h2>{img.comment}</h2>
 					 <img className="carousel-img" src={'../../public/img/'+img.src}/>
+					 <p className="legend">{img.comment}</p>
 				 </div>
 			 )
 	  })
 	}
 	render(props){
-		console.log(this.props.images)
 		return(
-			<div className="carousel-container">
+		  <Carousel axis="horizontal">
 				{this.renderImages()}
-			</div>
+	    </Carousel>
 		)
 	}
 }
 
-export default Carousel;
+export default thisCarousel;
