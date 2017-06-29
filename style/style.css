@@ -4,7 +4,6 @@
   display: -webkit-flex;
   display: flex;
   margin:0 auto;
-  background:#220A37;
   color:#F6F6F6;
 
 }
@@ -24,9 +23,10 @@ a{
 
 }
 .blk{
-  background:#220A37;
+  width:100%;
+  background: rgba(34, 10, 55, 0.6);
   color:#F6F6F6;
-  filter:alpha(opacity=60);
+
 }
 h1,h2,h3,h4{
   margin:0 !important;
@@ -36,7 +36,7 @@ h1,h2,h3,h4{
 /*Header Component*/
 @media only screen and (min-width: 750px) {
   body{
-  	background-image:url("../public/img/const.jpg");
+  	background-image:url("../../public/img/constgray.jpg");
    	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -44,10 +44,6 @@ h1,h2,h3,h4{
     padding: 0;
     margin: 0;
     list-style: none;
-  }
-  .header-mobile{
-    background:#220A37;
-    display:none;
   }
   .nav-bar{
     width:100%;
@@ -78,13 +74,11 @@ h1,h2,h3,h4{
 
 @media only screen and (max-width: 749px) {
   body {
-    /*background-image: url("../public/img/const1.jpg");
+    background-image: url("../../public/img/constc.jpg");
 		background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover
-*/
-    padding: 0;
+    background-size: cover;
     margin: 0;
     list-style: none;
   }
@@ -154,15 +148,21 @@ h1,h2,h3,h4{
 
 
 /*Carousel Componet*/
-.carousel{
+.carousel-conatiner{
 
   margin:20px auto;
 }
-.carousel>img{
-  width:70%;
+.carousel-img{
+  height:20%;
+  max-height:512px;
 }
 
 /*getInTouch Form*/
 .form{
   width:100%;
+}
+
+/*Info*/
+.link{
+  color:rgba(34, 10, 55, 1);
 }
