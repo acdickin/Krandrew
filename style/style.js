@@ -28,48 +28,7 @@ export default StyleSheet.create({
     "title": {},
     "blk": {
         "width": "100%",
-        "background": "rgba(34, 10, 55, 0.6)",
         "color": "#F6F6F6"
-    },
-    "h1": {
-        "marginTop": 0,
-        "marginRight": "!important",
-        "marginBottom": 0,
-        "marginLeft": "!important",
-        "paddingTop": 0,
-        "paddingRight": 0,
-        "paddingBottom": 0,
-        "paddingLeft": 0
-    },
-    "h2": {
-        "marginTop": 0,
-        "marginRight": "!important",
-        "marginBottom": 0,
-        "marginLeft": "!important",
-        "paddingTop": 0,
-        "paddingRight": 0,
-        "paddingBottom": 0,
-        "paddingLeft": 0
-    },
-    "h3": {
-        "marginTop": 0,
-        "marginRight": "!important",
-        "marginBottom": 0,
-        "marginLeft": "!important",
-        "paddingTop": 0,
-        "paddingRight": 0,
-        "paddingBottom": 0,
-        "paddingLeft": 0
-    },
-    "h4": {
-        "marginTop": 0,
-        "marginRight": "!important",
-        "marginBottom": 0,
-        "marginLeft": "!important",
-        "paddingTop": 0,
-        "paddingRight": 0,
-        "paddingBottom": 0,
-        "paddingLeft": 0
     },
     "nav-item> li >a:hover": {
         "border": "none"
@@ -109,6 +68,9 @@ export default StyleSheet.create({
         "background": "transparent",
         "transition": "all 0s ease"
     },
+    "aunderline:hover": {
+        "textDecoration": "none"
+    },
     "carousel-conatiner": {
         "marginTop": 20,
         "marginRight": "auto",
@@ -122,7 +84,22 @@ export default StyleSheet.create({
     "form": {
         "width": "100%"
     },
+    "carousel slide legend": {
+        "background": "rgba(0, 0, 0, 0.6) !important"
+    },
     "link": {
-        "color": "rgba(34, 10, 55, 1)"
+        "color": "green"
+    },
+    "map": {
+        "color": "black"
+    },
+    "maps": {
+        "marginTop": "auto",
+        "marginRight": "auto",
+        "marginBottom": "auto",
+        "marginLeft": "auto"
+    },
+    "h4": {
+        "marginTop": 0.5
     }
 });

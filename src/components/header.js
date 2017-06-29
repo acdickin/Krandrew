@@ -8,7 +8,8 @@ export default class Header extends Component{
 
 			<nav className="nav-bar">
 				<div className="nav-items blk">
-					<h1 className="header-desktop"> Andrew and Krystaal's Wedding Website</h1>
+					<h1 className="header-desktop">Andrew and Krystaal's Wedding Website</h1>
+					<h1 className="header-mobile">Andrew and Krystaal's Wedding</h1>
 					<li className="nav-item">
 						<Link to="/"  id="underline">About Us</Link>
 					</li>
