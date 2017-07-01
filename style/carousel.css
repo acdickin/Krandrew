@@ -158,10 +158,11 @@
     bottom: 0;
     margin-top: 0;
     padding: 5px;
+    background:rgba(0,0,0, 0.4);
 }
 
 .carousel.carousel-slider .control-arrow:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .carousel .slider-wrapper {

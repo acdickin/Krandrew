@@ -34,7 +34,7 @@ export default StyleSheet.create({
         "position": "absolute",
         "zIndex": 2,
         "top": 0,
-        "background": "none",
+        "background": "rgba(0,0,0, 0.4)",
         "border": 0,
         "fontSize": 26,
         "cursor": "pointer",
@@ -183,7 +183,7 @@ export default StyleSheet.create({
         "overflow": "hidden"
     },
     "carouselcarousel-slider control-arrow:hover": {
-        "background": "rgba(0, 0, 0, 0.2)"
+        "background": "rgba(0, 0, 0, 0.6)"
     },
     "carousel slider-wrapper": {
         "overflow": "hidden",

@@ -12,26 +12,34 @@ a:hover {
   color:gold;
  }
 a{
-  color:#F6F6F6 !important;
+  /*color:#F6F6F6 !important;*/
+  /*color:#010101 !important;*/
+
+}
+.navMenu a{
+    color:rgb(201, 232, 255) !important;
+}
+.navMenu{
+    color:rgb(201, 232, 255) !important;
 }
 
 .title-blk{
   width:100%;
   text-align:center;
+
 }
 .title{
-
+  rgb(130, 171, 208);
 }
 .blk{
   width:100%;
-  background: rgba(34, 10, 55, 0.6);
-  color:#F6F6F6;
+  /*background: rgba(34, 10, 55, 0.6);*/
+  background:rgba(155, 206, 238, .8);
+  /*color:#F6F6F6;*/
+  /*color:#010101;*/
+  color:rgb(42, 48, 64)
+}
 
-}
-h1,h2,h3,h4{
-  margin:0 !important;
-  padding:0;
-}
 
 /*Header Component*/
 @media only screen and (min-width: 750px) {
@@ -44,6 +52,12 @@ h1,h2,h3,h4{
     padding: 0;
     margin: 0;
     list-style: none;
+  }
+  .menu-btn{
+    display: none;
+  }
+  .header-mobile{
+    display: none;
   }
   .nav-bar{
     width:100%;
@@ -82,6 +96,9 @@ h1,h2,h3,h4{
     margin: 0;
     list-style: none;
   }
+  .header-desktop{
+    display:none;
+  }
   .container{
     padding:0  !important;
   }
@@ -91,13 +108,8 @@ h1,h2,h3,h4{
     text-align:center;
     text-decoration:none;
   }
-  .nav-item {
-    display:block;
-    font-size:1.3em;
-  }
-  .nav-divider{
+  .navMenu{
     display:none;
-
   }
 }
 
@@ -127,13 +139,13 @@ h1,h2,h3,h4{
   bottom:0;
   height:4px;
   width:0;
-  background:white;
+  background:rgb(206, 247, 255);
   transition:width 1s ease;
 }
 
 #underline:hover:before {
   width:100%;
-  background:white;
+  background:rgb(206, 247, 255);
   transition:width 1s ease;
 }
 
@@ -142,14 +154,19 @@ h1,h2,h3,h4{
   background:transparent;
   transition:all 0s ease;
 }
+a#underline:hover {
+    text-decoration: none;
+}
 
 
 /*About us*/
-
+.about-text{
+  margin-top:-20px;
+  padding:5% 10%;
+}
 
 /*Carousel Componet*/
 .carousel-conatiner{
-
   margin:20px auto;
 }
 .carousel-img{
@@ -161,8 +178,27 @@ h1,h2,h3,h4{
 .form{
   width:100%;
 }
+.carousel .slide .legend {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
 
 /*Info*/
 .link{
-  color:rgba(34, 10, 55, 1);
+  color:rgb(120, 133, 168);
+}
+.map{
+  color:black;
+}
+.maps{
+  margin:auto;
+}
+h4{
+  margin-top: .5rem;
+}
+h1{
+  margin:0;
+  padding:20px;
+}
+.freebirdAccentBackground{
+      background-color:#fff;
 }
