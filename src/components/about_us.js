@@ -6,11 +6,11 @@ export default class AboutUs extends Component {
   render() {
     return (
       <div>
-      	<div className="title-blk blk">
+      	<div className="title-blk">
           <h2 className="title" > About Us</h2>
       		<Carousel images={IMGS.about}/>
       	</div>
-        <div className="blk about-text">
+        <div className="main about-text">
           <br/>
           <p>     We’re millenials, so, of course, we met on Tinder, and it didn’t take long for Krystaal to plan a date. Our first date included three of our favorite things: hiking, pizza, and lots of laughter. From the start, we got along so easily, and loudly, feeling nearly immediate comfort with one another. Something to do with Andrew’s kind heartedness and Krystaal’s bossily caring nature. We knew very early on that we would be together for a long time.</p>
 

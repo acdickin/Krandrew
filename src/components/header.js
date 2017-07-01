@@ -9,15 +9,18 @@ export default class Header extends Component{
 	render(){
 		return(
 			<nav className="nav-bar">
-				<div className="nav-items blk">
-					<h1 className="header-desktop">Andrew and Krystaal's Wedding Website</h1>
-					<h1 className="header-mobile">Andrew and Krystaal's Wedding</h1>
-					<hr/>
+			<div className="header">
+				<h1>Andrew and Krystaal's Wedding</h1>
+			</div>
+				<div className="nav-items ">
 					<div className="menu-btn" onClick={this.toggleMenu}>
 						<h2>- Menu -</h2>
 					</div>
 
 					<div className="navMenu" >
+						<li className="nav-divider">
+							-
+						</li>
 						<li className="nav-item">
 							<Link to="/"  id="underline">About Us</Link>
 						</li>
@@ -38,6 +41,9 @@ export default class Header extends Component{
 							</li>
 						<li className="nav-item">
 							<Link to="/get-in-touch"  id="underline">RSVP</Link>
+						</li>
+						<li className="nav-divider">
+							-
 						</li>
 				  </div>
 				</div>
