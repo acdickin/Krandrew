@@ -1,22 +1,41 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router'
-
+import {Link} from 'react-router';
+import MobileNav from './mobileNav';
+import Top from './toTheTop';
 
 export default class Header extends Component{
-	toggleMenu(){
+	constructor(){
+		super();
+		this.state={
+			visible:false
+		}
 
+		this.toggleMenu=this.toggleMenu.bind(this);
+	}
+
+	toggleMenu(){
+		this.setState({visible: !this.state.visible})
 	}
 	render(){
 		return(
 			<nav className="nav-bar">
+
+			<Top/>
+
 			<div className="header">
 				<h1>Andrew and Krystaal's Wedding</h1>
 			</div>
-				<div className="nav-items ">
-					<div className="menu-btn" onClick={this.toggleMenu}>
-						<h2>- Menu -</h2>
-					</div>
+				<div className="nav-items">
+					<div className="menu-btn">
+						<h2 onClick={this.toggleMenu}>- Menu -</h2>
+						{
+							this.state.visible
+							?<MobileNav/>
+							:null
+						}
 
+					</div>
+					<mobileNav />
 					<div className="navMenu" >
 						<li className="nav-divider">
 							-
