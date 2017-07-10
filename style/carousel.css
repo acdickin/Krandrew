@@ -85,7 +85,7 @@ COLOURS
 }
 
 .carousel img {
-  width: 100%;
+  width: 90%;
   display: inline-block;
   pointer-events: none;
 }
@@ -228,7 +228,6 @@ COLOURS
 }
 
 .carousel .slide img {
-  width: 50%;
   vertical-align: top;
   border: 0;
 }

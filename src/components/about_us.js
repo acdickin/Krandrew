@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from './carousel';
+import ThisCarousel from './carousel';
 import IMGS from '../../public/api/imageList';
 
 export default class AboutUs extends Component {
@@ -8,7 +8,7 @@ export default class AboutUs extends Component {
       <div>
       	<div className="title-blk">
           <h2 className="title" > About Us</h2>
-      		<Carousel images={IMGS.about}/>
+      		<ThisCarousel images={IMGS.about}/>
       	</div>
         <div className="main about-text">
           <br/>

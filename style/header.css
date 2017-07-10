@@ -1,14 +1,31 @@
+@font-face {
+    font-family: 'watermelon_scriptregular';
+    src: url('/public/font/watermelonotf-webfont.woff2') format('woff2'),
+         url('/public/font/watermelonotf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'watermelon_scriptregular';
+    src: url('/public/font/watermelonttf-webfont.woff2') format('woff2'),
+         url('/public/font/watermelonttf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /*Header Component*/
 
 .header{
   color:#F2F2F2;
-  font-family: 'Rochester', cursive;
+  font-family: 'watermelon_scriptregular';
 }
 .nav-bar{
-  font-family: 'Rochester', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 .title{
-  font-family: 'Rochester', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 .nav-item> li >a:hover{
   border:none;
@@ -96,5 +113,13 @@
   position:fixed;
   top:80%;
   right:10px;
-  opacity:.7;
+  opacity:.4;
+  width:10vh;
+  height:8vh;
+  background-image: url('/public/img/up-arrow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top:hover{
+  opacity:.8;
 }
