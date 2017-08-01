@@ -227,11 +227,11 @@ export default StyleSheet.create({
         "transition": "all 0.35s ease-in-out"
     },
     "carousel slide": {
-        "minWidth": "90%",
+        "minWidth": "80%",
         "marginTop": 0,
-        "marginRight": "5%",
+        "marginRight": "10%",
         "marginBottom": 0,
-        "marginLeft": "5%",
+        "marginLeft": "10%",
         "position": "relative",
         "textAlign": "center"
     },
