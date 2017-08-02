@@ -23,11 +23,12 @@ a{
 .title-blk{
   width:100%;
   text-align:center;
+  font-size: larger;
 
 }
 h2.title{
   margin: 20px 0;
-  color:#56CCF2 !important;
+  color:#EEE !important;
 }
 .main{
   color:#F2F2F2;
@@ -37,9 +38,14 @@ h2.title{
 /*About us*/
 .about-text{
   margin-top:-20px;
-  padding:5% 10%;
+  font-size: larger;
 }
-
+@media only screen and (max-width: 749px) {
+  .about-text{
+    margin-top:-20px;
+    padding:5% 10%;
+  }
+}
 /*Carousel Componet*/
 .carousel-conatiner{
   margin:20px auto;
