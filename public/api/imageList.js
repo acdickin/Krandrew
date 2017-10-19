@@ -38,12 +38,12 @@ var IMGS={
   ],
     "ohana":[
       {"id":1, "src":"ohanapecosh/olg1.jpg", "size":"8"},
-      {"id":2, "src":"ohanapecosh/olg2.jpg", "size":"8"},
-      {"id":3, "src":"ohanapecosh/o1.jpg","size":"4" },
-      {"id":4, "src":"ohanapecosh/o2.jpg","size":"4" },
-      {"id":5, "src":"ohanapecosh/o3.jpg","size":"4" },
-      {"id":6, "src":"ohanapecosh/o4.jpg","size":"4" },
-      {"id":7, "src":"ohanapecosh/olg3.jpg", "size":"8"},
+      {"id":2, "src":"ohanapecosh/o1.jpg","size":"4" },
+      {"id":3, "src":"ohanapecosh/o2.jpg","size":"4" },
+      {"id":4, "src":"ohanapecosh/olg2.jpg", "size":"8"},
+      {"id":5, "src":"ohanapecosh/olg3.jpg", "size":"8"},
+      {"id":6, "src":"ohanapecosh/o3.jpg","size":"4" },
+      {"id":7, "src":"ohanapecosh/o4.jpg","size":"4" },
       {"id":8, "src":"ohanapecosh/olg4.jpg", "size":"8"},
     ]
 

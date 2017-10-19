@@ -34,7 +34,9 @@ h2.title{
   color:#F2F2F2;
   font-family: 'Quicksand', sans-serif;
 }
-
+p{
+  font-size: 1.2rem;
+}
 /*About us*/
 .about-text{
   margin-top:-20px;
@@ -70,9 +72,21 @@ h2.title{
 .map{
   color:black;
 }
-.maps{
-  margin:auto;
+@media(max-width: 420px){
+  .maps{
+    margin:auto;
+    height:50vh;
+    width:100vw;
+  }
 }
+@media(min-width: 421px){
+  .maps{
+    margin:auto;
+    height:50vh;
+    width:55vw;
+  }
+}
+
 h4{
   margin-top: .5rem;
 }
@@ -82,4 +96,7 @@ h1{
 }
 .freebirdAccentBackground{
       background-color:#fff;
+}
+div#disconnect {
+    text-align: left;
 }

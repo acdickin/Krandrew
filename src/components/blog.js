@@ -11,16 +11,16 @@ export default class Blog extends Component {
       		<h2 className="title" >Blog Page</h2>
           <div className="main">
 
+
+
+            <h4>Spring 2017</h4>
+            <BlogImg images={IMGS.spring2017}/>
+
             <h4>Ohanapecosh</h4>
             <BlogImg images={IMGS.ohana}/>
 
             <h4>WellSpring Spa Visit</h4>
             <BlogImg images={IMGS.wellspring}/>
-
-            <h4>Spring 2017</h4>
-            <BlogImg images={IMGS.spring2017}/>
-
-
           </div>
         </div>
       </div>

@@ -17,6 +17,9 @@ export default class MobileNav extends React.Component{
 				<li className="nav-item">
 					<Link to="/get-in-touch"  id="underline">RSVP</Link>
 				</li>
+				<li className="nav-item">
+					<a href="https://www.amazon.com/wedding/share/Krandrew-Registry" id="underline">Our Registry</a>
+				</li>
 			</div>
 		)
 	}

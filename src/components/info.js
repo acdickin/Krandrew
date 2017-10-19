@@ -10,29 +10,22 @@ export default class Info extends Component {
           <div className="main">
             <p><strong>Disconnect with us on our destination weekend wedding extravaganza.</strong> We intend to spend the weekend in the forest with all of you, from a welcome dinner Friday night to a send-off brunch on Sunday.</p>
             <h4>Location</h4>
-            <p>Wellspring Spa is located in the small mountain town of Ashford, WA, about a 90 minute drive from Seattle. Plan on unplugging, as there is limited phone service at Wellspring, but there is plenty to do. Take time to explore one of the venue’s multiple hiking paths, check out the labyrinth or waterfall, relax in the saunas and hot tubs, we will have full access to the grounds all weekend. </p>
+            <br/>
+            <p>
+              Warm Springs Inn and Winery is located between the mountain towns of Leavenworth and Wenatchee. The area surrounding Warm Springs Inn is full of wineries and opportunities for outdoor recreation. We encourage taking the time to play tourist.
+            </p>
 
-            <a href="http://wellspringspa.com/"><p className="link">Wellspring Spa Website</p></a>
-            <p>54922 Kernahan Rd E</p>
-            <p>Ashford, WA 98304</p>
+            <a href="https://warmspringsinn.com/"><p className="link">Warm Spring Inn and Winery Website</p></a>
+            <p>1611 Love Lane</p>
+            <p>Wenachee, WA 98801</p>
 
             <div className='map'>
               <GoogleMap/>
             </div>
 
-
-            <br/>
-            <h4>Weekend Schedule</h4>
-          <p>  TBD, but prepare yourselves for a weekend of fun and adventure! </p>
-
-            <h4>Ashford Accommodations</h4>
-              <p>Ashford offers a variety of accommodations, including motels, cabins, and campsites.</p>
-              <p>Motels:</p>
-
-            <h4>Seattle Accommodations</h4>
-              <p>Arriving before Friday or staying after Sunday? Let us recommend some lovely locations in Seattle!</p>
-              <p>Downtown:</p>
-              <p>Near Airport:</p>
+            <p>Wenatchee has the closest options, a riverfront public market and walkable main street. We have blocked rooms at Comfort Suites.</p>
+            <p>For a true destination experience, we highly recommend staying in Leavenworth, 18 miles away. Leavenworth is a Bavarian-styled village in the Cascade Mountains, with ample shopping, hotels, and German eateries.</p>
+            <p>Transportation options coming soon. Please check back for updates!</p>
 
 
         	</div>
